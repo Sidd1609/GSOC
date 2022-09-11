@@ -1,9 +1,3 @@
-```shell
-Contributor: 'Sri Siddarth Chakaravarthy'
-Mentor: 'Yuantao Feng'
-Organisation: 'OpenCV'
-Project: 'Light-weight Object Detection Models for Resource restricted usage'
-```
 <div align="center">
     <a href="https://summerofcode.withgoogle.com/"><img src="https://godotengine.org/storage/app/uploads/public/5c7/67d/8c6/5c767d8c62621713488685.png" width="550" alt="google-summer-of-code"></a>
     <br>
@@ -28,6 +22,13 @@ Project: 'Light-weight Object Detection Models for Resource restricted usage'
 <br>
 
 ## # Project Abstract
+```shell
+Contributor: 'Sri Siddarth Chakaravarthy'
+Mentor: 'Yuantao Feng'
+Organisation: 'OpenCV'
+Project: 'Light-weight Object Detection Models for Resource-Restricted Usage'
+Coding-Period: 'June 13th - September 12th'
+```
 
 + OpenCV is an open-source library developed mainly for real-time computer vision operations such as object detection, object tracking, etc. 
 + Currently, OpenCV supports trained models with benchmarked results on various datasets via its model_zoo. Some existing models include Yunet, Mobilenet, CRNN, etc. 
@@ -66,7 +67,7 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 <b> Issues opened: </b>
 1. [opencv/opencv_zoo#62](https://github.com/opencv/opencv_zoo/issues/62#-weekly-summary ): [opencv_zoo] This issue directs to this page which consists of the detailed information [about](url) this project and all the contributions made by myself during the course of GSOC'22 **`/cb`**
 
-2. [Megvii-BaseDetection/YOLOX#1464](https://github.com/Megvii-BaseDetection/YOLOX/issues/1464): [YOLOX] This issue was raised to inform an issue related to add CPU evaluation support for YOLOX so that it can be easier to infer models and run benchmarks on CPU only devices**`/cp1`**
+2. [Megvii-BaseDetection/YOLOX#1464](https://github.com/Megvii-BaseDetection/YOLOX/issues/1464): [YOLOX] This issue was raised to inform an issue related to add CPU evaluation support for YOLOX so that it can be easier to infer models and run benchmarks on CPU only devices **`/cp1`**
 
 > **Tags**:
 >
@@ -74,37 +75,15 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 > **c**ommunity **b**onding period : **`/cb`** <br>
 > **c**oding **p**eriod **x** - **`/cpx`** <br>
 
-
-- **Do the check issue tracker in the current repository for some more info.**
-
 <br>
 
 ## # Weekly Summary
 ### Community Bonding - May 20th to June 12th, 2022
-
-+ [Accepted for GSoC 2922 & 1st Meeting]
-+ [A kick start meeting]
-
+<br>
 ### Coding Period 1 - June 13th to  June 25th, 2022
 
 + Week#1: Object Detection with YOLOv5 and EfficientDet[Summary]
-
-#### Done:
-Created Task tracker issue on OpenCV_Zoo repo
-Completed survey on object detection models and ran evaluation metrics on the COCO dataset. 
-Model Evaluation on Google Colab and Local System (Nanodet and EfficientDet).
-Converted Pytorch model to ONNX format.
-Generated Nanodet model ONNX format with FP16.
-Loaded the ONNX formatted model using OpenCV.
-
-#### Plan:
-Create Pull requests before mid-review for inferring the model using OpenCV.
-Test the inferred model using OpenCV on sample images. 
-Work on creating a quantized version of the ONNX model. 
-
-#### Issues:
-Not able to run inference using "Net. forward() on OpenCV despite being able to load and read the model layers using 
-OpenCV. 
++ Week #1: [Summary](./work/week1)
 
 ### Coding Period 2 - July 25th to  August 15th, 2022 
 ### Coding Period 3 - August 16th to  September 12th, 2022
