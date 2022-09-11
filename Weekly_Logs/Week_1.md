@@ -6,6 +6,5 @@
 - This project involved working on trained model weights, hence I was not required to open a lot of pull request making my contributions very precise to the point. I was assigned the following tasks for the week ahead.
 
 <b>WEEK1 TASKS</b>
-- [x] Created Task tracker issue on OpenCV_Zoo repo
+- [x] Create Task tracker issue on OpenCV_Zoo repo
 - [x] Complet survey on light-weight object detection models and run evaluation on COCO dataset. 
-- [x] Create [Task tracker](https://github.com/opencv/opencv_zoo/issues/62) issue in opencv_zoo repo 
