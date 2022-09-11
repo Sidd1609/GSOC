@@ -1,4 +1,4 @@
-This issue is related to the Google Summer of Code 2022 for the proposal of Object detection models for OpenCV zoo carried out by Sri Siddarth Chakaravarthy 
+This File is related to the Google Summer of Code 2022 for the proposal of Object detection models for OpenCV zoo carried out by Sri Siddarth Chakaravarthy 
 
 <div align="center">
     <a href="https://summerofcode.withgoogle.com/"><img src="https://godotengine.org/storage/app/uploads/public/5c7/67d/8c6/5c767d8c62621713488685.png" width="550" alt="google-summer-of-code"></a>
@@ -11,11 +11,11 @@ This issue is related to the Google Summer of Code 2022 for the proposal of Obje
 </div>
 <p align="center">
     <code> 
-	<a href="-#-Project-Abstract">Project Abstract</a>&nbsp;&nbsp;&nbsp;
-    <a href="-#-Pull-requests--Issues">Pull Requests & Issues</a>&nbsp;&nbsp;&nbsp;
-    <a href="-#-Weekly-Summary">Weekly Summary</a>&nbsp;&nbsp;&nbsp;
-	<a href="-#-Would-like-to-sync">Would like to sync?</a>&nbsp;&nbsp;&nbsp;
-    <a href="-#-Links">Links</a>
+	<a href="#-Project-Abstract">Project Abstract</a>&nbsp;&nbsp;&nbsp;
+    <a href="#-Pull-requests--Issues">Pull Requests & Issues</a>&nbsp;&nbsp;&nbsp;
+    <a href="#-Weekly-Summary">Weekly Summary</a>&nbsp;&nbsp;&nbsp;
+	<a href="#-Would-like-to-sync">Would like to sync?</a>&nbsp;&nbsp;&nbsp;
+    <a href="#-Links">Links</a>
     </code>
 </p>
 
