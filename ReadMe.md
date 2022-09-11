@@ -48,8 +48,8 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 
 <div>
 <p align="centre">
-  <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_nanodet/examples/results/WebCamR.gif" width="500" height="450"> 
-  <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_yolox/examples/results/WebcamR.gif" width="500" height="450">
+  <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_nanodet/examples/results/WebCamR.gif" width="450" height="450"> 
+  <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_yolox/examples/results/WebcamR.gif" width="450" height="450">
 </p>
 </div>
 
