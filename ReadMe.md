@@ -80,32 +80,35 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 ## # Weekly Summary
 ### Community Bonding - May 20th to June 12th, 2022
 <br>
-### Coding Period 1 - June 13th to  June 25th, 2022
+### Coding Period 1 - June 13th to  July 25th, 2022
 
-+ Week#1: Object Detection with YOLOv5 and EfficientDet[Summary]
-+ Week #1: [Summary](./work/week1)
++ Week #1: [Summary](./Weekly_Logs/Week_1.md)
++ Week #2: [Summary](./Weekly_Logs/Week_2.md)
++ Week #3: [Summary](./Weekly_Logs/Week_3.md)
++ Week #4: [Summary](./Weekly_Logs/Week_4.md)
++ Week #5: [Summary](./Weekly_Logs/Week_5.md)
++ Week #6: <b> Sumission of Phase-1 Evaluation </b>
 
-### Coding Period 2 - July 25th to  August 15th, 2022 
-### Coding Period 3 - August 16th to  September 12th, 2022
+### Coding Period 2 - July 25th to  Septemeber 4th, 2022 
+
++ Week #7: [Summary](./Weekly_Logs/Week_7.md)
++ Week #8: [Summary](./Weekly_Logs/Week_8.md)
++ Week #9: [Summary](./Weekly_Logs/Week_9.md)
++ Week #10: [Summary](./Weekly_Logs/Week_10.md)
++ Week #11: [Summary](./Weekly_Logs/Week_11.md)
+
+### Final Evaluation Period - September 5th to  September 12th, 2022
+
++ Week #12: <b> Sumission of Final Evaluation </b>
 <br>
 
 ## # Would like to sync?
 
-+ We have planned to keep all the communication open 🎉 so that everyone can sync and is free to participate and help us grow! So if you have suggestions/comments about anything please do not hesitate to open up an [issue ticket]
-+ 
-+ There will be a weekly [blog post]
-
++ We have planned to keep all the communication open 🎉 so that everyone can sync and is free to participate and help us grow! So if you have suggestions/comments about anything please do not hesitate to open up an [issue ticket](https://github.com/opencv/opencv_zoo/issues)
 <br>
 
 ## # Links
 
-+ GSoC project [proposal]
-+ OpenCV: The Quest for Source Code Knowledge [paper](https://www.researchgate.net/publication/326942711_Graal_The_Quest_for_Source_Code_Knowledge)
-
++ GSoC project [proposal](https://github.com/Sidd1609/GSOC/blob/main/SriSiddarth(OpenCV)(Proposal).pdf)
 
 <br>
-
-### `Footnotes`
-
-+ Work done during the application period can be found here : [Contributions]
-
