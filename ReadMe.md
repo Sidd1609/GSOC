@@ -36,9 +36,9 @@ This File is related to the Google Summer of Code 2022 for the proposal of Objec
 
 ## # Work Product
 
-> A short video of the final product: 
+> Demonstration of object detection models updated to OpenCV Zoo models library: 
 
-<div align="center">Final Video Presentation
+<div align="center">Nanodet
 </div>
 
 
