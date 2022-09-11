@@ -110,5 +110,6 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 ## # Links
 
 + GSoC project [proposal](https://github.com/Sidd1609/GSOC/blob/main/SriSiddarth(OpenCV)(Proposal).pdf)
++ GSoC proposal [acceptance](https://summerofcode.withgoogle.com/programs/2022/projects/zULf6hi2)
 
 <br>
