@@ -12,7 +12,7 @@ This File is related to the Google Summer of Code 2022 for the proposal of Objec
 <p align="center">
     <code> 
 	<a href="#-Project-Abstract">Project Abstract</a>&nbsp;&nbsp;&nbsp;
-    <a href="#-Pull-requests--Issues">Pull Requests & Issues</a>&nbsp;&nbsp;&nbsp;
+    <a href="#-Pull-requests--Issues--Forks">Pull Requests & Issues</a>&nbsp;&nbsp;&nbsp;
     <a href="#-Weekly-Summary">Weekly Summary</a>&nbsp;&nbsp;&nbsp;
 	<a href="#-Would-like-to-sync">Would like to sync?</a>&nbsp;&nbsp;&nbsp;
     <a href="#-Links">Links</a>
@@ -42,7 +42,7 @@ This File is related to the Google Summer of Code 2022 for the proposal of Objec
 </div>
 
 
-## # Pull Requests & Issues & Forks
+## # Pull Requests, Issues & Forks
 **#** **Repository: opencv_zoo** [**`/working-branches`**](https://github.com/opencv/opencv_zoo/branches)
 Forks
 1. [opencv](https://github.com/Sidd1609/opencv_GSOC-22): [opencv] Forked the official OpenCV repository to try out examples and understand the <b>cv.dnn</b> framework offered by OpenCV on which the GSOC work revolves around. **`/ap`**
