@@ -1,5 +1,9 @@
-This File is related to the Google Summer of Code 2022 for the proposal of Object detection models for OpenCV zoo carried out by Sri Siddarth Chakaravarthy 
-
+```shell
+Contributor: 'Sri Siddarth Chakaravarthy'
+Mentor: 'Yuantao Feng'
+Organisation: 'OpenCV'
+Project: 'Light-weight Object Detection Models for Resource restricted usage'
+```
 <div align="center">
     <a href="https://summerofcode.withgoogle.com/"><img src="https://godotengine.org/storage/app/uploads/public/5c7/67d/8c6/5c767d8c62621713488685.png" width="550" alt="google-summer-of-code"></a>
     <br>
@@ -12,51 +16,46 @@ This File is related to the Google Summer of Code 2022 for the proposal of Objec
 <p align="center">
     <code> 
 	<a href="#-Project-Abstract">Project Abstract</a>&nbsp;&nbsp;&nbsp;
-    <a href="#-Contributions">Contributions</a>&nbsp;&nbsp;&nbsp;
-    <a href="#-Weekly-Summary">Weekly Summary</a>&nbsp;&nbsp;&nbsp;
+    	<a href="#-Contributions">Contributions</a>&nbsp;&nbsp;&nbsp;
+    	<a href="#-Weekly-Summary">Weekly Summary</a>&nbsp;&nbsp;&nbsp;
 	<a href="#-Would-like-to-sync">Would like to sync?</a>&nbsp;&nbsp;&nbsp;
-    <a href="#-Links">Links</a>
+    	<a href="#-Links">Links</a>
     </code>
 </p>
-
 <p align="center">
 	<b> <sub>Check out my <a href="https://github.com/Sidd1609?tab=repositories"> <code>GitHub Repo</code> </a> or follow me on <a href="https://www.linkedin.com/in/sri-siddarth-chakaravarthy-p-145675192/"> <code>LinkedIn</code> </a> </sub></b>
 </p>
 <br>
 
-<br>
-
 ## # Project Abstract
 
-+ OpenCV is an open-source library developed mainly for real-time computer vision operations such as object detection, object tracking, etc. Currently, OpenCV supports trained models with benchmarked results on various datasets via its model_zoo. However, it only supports a limited number of models.
++ OpenCV is an open-source library developed mainly for real-time computer vision operations such as object detection, object tracking, etc. 
++ Currently, OpenCV supports trained models with benchmarked results on various datasets via its model_zoo. Some existing models include Yunet, Mobilenet, CRNN, etc. 
++ OpenCV zoo model library is mainly focused on providing developers with trained model weights in .ONNX format and quantized models (light-weight models) that can be used on CPU-only machines, their model library contain trained model weights that can be used for real-time inference on systems that do not have high computation power (no GPU). 
++ These models can also be directly deployed in applications and are quantized to int-8 versions using onnxruntime static_quantization module.
 
-> <i> The aim of this project is to add object detection models such as Nanodet, EfficientDet, YOLOv5, etc. to the list of existing models in the OpenCV model zoo  to enable model inference using OpenCV python package</i>
+> <i> The aim of this project is to add object detection models such as Nanodet, EfficientDet, YOLOX, etc. to the list of existing models in the OpenCV model zoo  to enable model inference using OpenCV python package</i>
 
 <br>
 
 ## # Work Product
 
 > Demonstration of object detection models updated to OpenCV Zoo models library: 
+> <i> The final deliverable of this GSOC program was to help opencv_zoo support more light-weight object detection models so that developers will be able to infer models using <b>cv.dnn</b> framework, providing an alternative to existing model inference tools such as onnxruntime, openvino, tensorflow, etc. Towards the final timeline of this project we finalized models: NanoDet and YOLOX and have successfully added these model supports to opencv zoo library. </i>
+<br>
+Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatted models on a CPU-only machine. 
 
-<div align="center">Nanodet
+<div>
+<p align="centre">
+  <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_nanodet/examples/results/WebCamR.gif" width="500" height="450"> 
+  <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_yolox/examples/results/WebcamR.gif" width="500" height="450">
+</p>
 </div>
-
 
 ## # Contributions
 **#** **Repository: opencv_zoo** [**`/working-branches`**](https://github.com/opencv/opencv_zoo/branches)
 
-Forks
-1. [opencv](https://github.com/Sidd1609/opencv_GSOC-22): [opencv] Forked the official OpenCV repository to try out examples and understand the <b>cv.dnn</b> framework offered by OpenCV on which the GSOC work revolves around. **`/ap`**
-
-2. [EfficientDet](https://github.com/Sidd1609/EfficientDet-GSOC-): [signatrix] Forked the official EfficientDet model repo for working pre-trained model evaluation on the COCO val2017 dataset and learn the pre-process, inference and post-process modules of the model. **`/ap`**
-
-3. [Nanodet](https://github.com/Sidd1609/Nanodet-GSOC): [RangiLyu] Forked the official Nanodet model repo for working pre-trained model evaluation on the COCO val2017 dataset and learn the pre-process, inference and post-process modules of the model. **`/ap`**
-
-4. [YOLOX](https://github.com/Sidd1609/YOLOX-GSOC): [Megvii-BaseDetection] Forked the official YOLOX model repo for working pre-trained model evaluation on the COCO val2017 dataset and learn the pre-process, inference and post-process modules of the model. **`/ap`**
-
-> <i> The final deliverable of this GSOC program was to help opencv_zoo support more light-weight object detection models so that developers will be able to infer models using <b>cv.dnn</b>  framework apart from existing model inference tools. This project also needed to satisfy the licensing of models used hence EfficientDet had not been pursued further. Finalized Models: NanoDet and YOLOX</i>
-
-Pull requests created:
+<b> Pull requests created: </b>
 
 1. [opencv/opencv_zoo#75](https://github.com/opencv/opencv_zoo/pull/75): [opencv_zoo] Added NanodetPlus model to the OpenCV Zoo models stack **`/cp1`**
 
@@ -64,7 +63,7 @@ Pull requests created:
 
 3. [opencv/opencv_zoo#91](https://github.com/opencv/opencv_zoo/pull/91): [opencv_zoo] Added COCO_Evaluation support in OpenCV Zoo tools **`/cp3`**
 
-Issues opened:
+<b> Issues opened: </b>
 1. [opencv/opencv_zoo#62](https://github.com/opencv/opencv_zoo/issues/62#-weekly-summary ): [opencv_zoo] This issue directs to this page which consists of the detailed information [about](url) this project and all the contributions made by myself during the course of GSOC'22 **`/cb`**
 
 2. [Megvii-BaseDetection/YOLOX#1464](https://github.com/Megvii-BaseDetection/YOLOX/issues/1464): [YOLOX] This issue was raised to inform an issue related to add CPU evaluation support for YOLOX so that it can be easier to infer models and run benchmarks on CPU only devices**`/cp1`**
