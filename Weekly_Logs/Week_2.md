@@ -8,7 +8,7 @@
 
 
 - In continuation to previous week, this week I worked on creating an analysis sheet for jotting down individual precision metrics for trained model weights. Most model repos had various versions of the model. Hence, I worked on evaluation of all variations to accumulate overall results that would help to finalize models that needed to be added to the model zoo library. 
-- I worked on testing versions of Nanodet, YoloX, 
+- I worked on testing versions of Nanodet.
 
 
 <b>WEEK2 TASKS</b>
