@@ -87,7 +87,7 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 + Week #3: [Summary](./Weekly_Logs/Week_3.md)
 + Week #4: [Summary](./Weekly_Logs/Week_4.md)
 + Week #5: [Summary](./Weekly_Logs/Week_5.md)
-+ Week #6: <b> Sumission of Phase-1 Evaluation </b>
++ Week #6: <b> Sumission of Phase-1 Evaluation </b> [Summary](./Weekly_Logs/Week_6.md)
 
 ### Coding Period 2 - July 25th to  September 4th, 2022 
 
@@ -99,7 +99,7 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 
 ### Final Evaluation Period - September 5th to  September 12th, 2022
 
-+ Week #12: <b> Sumission of Final Evaluation </b>
++ Week #12: <b> Sumission of Final Evaluation </b> [Summary](./Weekly_Logs/Week_12.md)
 <br>
 
 ## # Would like to sync?
