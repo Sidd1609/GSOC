@@ -1,7 +1,7 @@
 ## # Week-5 Summary
 
 #### Preview
-###### Total Hours Spent: 15 hours 🟩🟩🟩🟩⬛
+###### Total Hours Spent: 15 hours 🟩🟩🟩🟩🟩
 ###### Commits: 80
 ###### Pull Requests: 1 
 ###### Project Status: ![50%](https://progress-bar.dev/50)
