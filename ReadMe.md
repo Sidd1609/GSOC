@@ -132,6 +132,7 @@ Google Summer of Code (GSoC) 2022 has been an amazing experience, the journey ha
 + I will write the COCO evaluation script for the opencv_zoo repository that can useful for running evaluations on COCO val2017 dataset on CPU. 
 + I will also be working on the future work involving API creations for models and tools.
 + I will always be available for resolving community feedback and addressing bugs that may surface.
+<br>
 
 ## # Would like to sync?
 
