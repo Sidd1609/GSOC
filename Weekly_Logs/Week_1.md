@@ -7,4 +7,4 @@
 
 <b>WEEK1 TASKS</b>
 - [x] Create Task tracker issue on OpenCV_Zoo repo
-- [x] Complet survey on light-weight object detection models and run evaluation on COCO dataset. 
+- [x] Complete survey on light-weight object detection models and run evaluation on COCO dataset. 
