@@ -1,10 +1,10 @@
 ## # Week-5 Summary
 
 #### PREVIEW
-###### Total Hours Spent: 15 hours 🟩🟩🟩🟩🟩
+###### Total Hours Spent: 18 hours 🟩🟩🟩🟩🟩🟩
 ###### Commits: 80
 ###### Pull Requests: 1 
-###### Project Status: ![50%](https://progress-bar.dev/50)
+###### Project Status: ![45%](https://progress-bar.dev/45)
 
 
 - After completing model inference using opencv's <b>cv2.dnn</b> framework, I had to create a pull request and add NanoDet model to openCV's model_zoo library. 
@@ -21,6 +21,7 @@
    
     - Output_Visualization: This module in demo.py is used to scale the bounding box coordinates back to the images resolution, and then visualize the predicitons by plotting boxes using <b>cv2.rectangle()</b>. This module is required so that the bounding boxes are formatted properly for each individual image allowing the model to inference images with different resolutions. 
 
+
 <b>WEEK5 TASKS</b>
 - [x] Create pull request in opencv_zoo repo for [object_detection_nanodet](https://github.com/opencv/opencv_zoo/pull/87)
 - [x] Complete NanoDet.py modules
@@ -33,3 +34,7 @@
 <b>COMMITS</b>
 - [Nanodet.py](https://github.com/opencv/opencv_zoo/pull/87/commits/82c5161bf6bc1bdc57e9021e6a7b65108bf39ef4)
 - [ReadME](https://github.com/opencv/opencv_zoo/pull/87/commits/ede0f6965c6d41c90b1f0887af573f5f5185b97f)
+
+
+##### Note
+🟩 - 3 hours of coding (working days: Monday - Saturday)
