@@ -10,9 +10,11 @@
 <p align="center">
     <code> 
 	<a href="#-Project-Abstract">Project Abstract</a>&nbsp;&nbsp;&nbsp;
+	<a href="#-Goals">Goals</a>&nbsp;&nbsp;&nbsp;
     	<a href="#-Contributions">Contributions</a>&nbsp;&nbsp;&nbsp;
     	<a href="#-Weekly-Summary">Weekly Summary</a>&nbsp;&nbsp;&nbsp;
 	<a href="#-Would-like-to-sync">Would like to sync?</a>&nbsp;&nbsp;&nbsp;
+	<a href="#-Acknowledgements">Acknowledgements</a>&nbsp;&nbsp;&nbsp;
     	<a href="#-Links">Links</a>
     </code>
 </p>
@@ -39,6 +41,26 @@ Coding-Period: 'June 13th - September 12th'
 
 <br>
 
+## # Goals
+🎯The goals of this GSoC project involve the following: 🎯 
++ Addition of light-weight models such as NanoDet, Efficidet and YoloX to OpenCV model zoo library.
++ Model inference using OpenCV tools and frameworks.
++ Quantise FP16 models to INT8. 
++ Update the model zoo library. 
+
+
+#### <b>Getting Started</b>
+I started my work by implementing some examples and working around with <b>OpenCV DNN</b>. One of the OpenCV DNN module’s best things is that it is highly optimized for Intel processors. We can get good FPS when running inference on real-time videos for object detection and image segmentation applications. We often get higher FPS with the DNN module when using a model pre-trained using a specific framework. For example, let us take a look at image classification inference speed for different frameworks. Below, we can see the object detection inference performance when compared to other frameworks.
+
+<div align="center">
+  <img src="https://github.com/Sidd1609/GSOC/blob/main/Demo/cvdnninference.jpg" width="450" height="450"> 
+</div>
+
+#### <b>Identifying problems</b>
+This tool only supports deep learning inference on images and videos. It does not support fine-tuning and training. Still, the OpenCV DNN module can act as a perfect starting point for any beginner to get into the field of deep-learning based computer vision and play around. The model zoo library in OpenCV acts as the working directory for developers to experiment with the tool and see its use cases with some examples. However, this library is in an incohate state which requires addition of more complex and light-weight models that can harness the OpenCV DNN module to leverage faster performance. 
+
+<br>
+
 ## # Work Product
 
 > Demonstration of object detection models updated to OpenCV Zoo models library: 
@@ -47,7 +69,7 @@ Coding-Period: 'June 13th - September 12th'
 Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatted models on a CPU-only machine. 
 
 <div>
-<p align="centre">
+<p align="center">
   <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_nanodet/examples/results/WebCamR.gif" width="450" height="450"> 
   <img src="https://github.com/Sidd1609/opencv_zoo/blob/master/models/object_detection_yolox/examples/results/WebcamR.gif" width="450" height="450">
 </p>
@@ -101,6 +123,15 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 
 + Week #12: <b> Sumission of Final Evaluation </b> [Summary](./Weekly_Logs/Week_12.md)
 <br>
+
+## # Acknowledgements
+
+Google Summer of Code (GSoC) 2022 has been an amazing experience, the journey has taught me so many things not just technical skills but also how to work as an open source contributor, working on challenging problems, interacting with other developers around the world. I had a wonderful experience with the OpenCV community. The community is conducive, and all people are eager to help the newcomer, which I liked a lot about this community. Special thanks to my mentors Yuantao Feng, and Vadim, who saw me as a potential contributor. Without them, the work never would have been this joyful and rewarding. Interacting with them and working on this project together made this a great learning experience for me. Finally, thanks to the GSoC program, without which I wouldn’t be a part of this incredible journey and gain this memorable experience.
+
+#### <b>Future Work</b>👨‍💻
++ I will write the COCO evaluation script for the opencv_zoo repository that can useful for running evaluations on COCO val2017 dataset on CPU. 
++ I will also be working on the future work involving API creations for models and tools.
++ I will always be available for resolving community feedback and addressing bugs that may surface.
 
 ## # Would like to sync?
 
