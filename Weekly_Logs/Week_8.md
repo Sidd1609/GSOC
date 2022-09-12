@@ -1,10 +1,33 @@
 ## # Week-8 Summary
 
-#### Preview
-- I had previous experience working with object detection models. Hence, I was familiar with training models and evaluating trained models using pytorch and tensorflow frameworks using python. However, for this contribution I had to learn adpat to using <b>cv.dnn</b> framework since the entire project revolved providing more opencv zoo features based on opencv frameworks.
-- Therefore, I was asked to review work with <b>cv.dnn</b> framework by trying out examples from the opencv_zoo repo and also refering to the package and module informations from [opencv](https://docs.opencv.org/3.4/d6/d0f/group__dnn.html) documentation
-- This project involved working on trained model weights, hence I was not required to open a lot of pull request making my contributions very precise to the point. I was assigned the following tasks for the week ahead.
+#### PREVIEW
+###### Total Hours Spent: 15 hours 🟩🟩🟩🟩🟩
+###### Commits: None
+###### Pull Requests: None
+###### Project Status: ![10%](https://progress-bar.dev/10)
 
-<b>WEEK1 TASKS</b>
-- [x] Create Task tracker issue on OpenCV_Zoo repo
-- [x] Complet survey on light-weight object detection models and run evaluation on COCO dataset. 
+
+- In continuation to previous week, this week I worked on creating an analysis sheet for jotting down individual precision metrics for trained model weights. Most model repos had various versions of the model. Hence, I worked on evaluation of all variations to accumulate overall results that would help to finalize models that needed to be added to the model zoo library. 
+- I worked on testing versions of YoloX such as: YoloX_s, YoloX_tiny, YoloX_nano.
+
+
+<b>WEEK8 TASKS</b> 
+- [x] Model(s) evaluation using COCO val2017 dataset in Google Colab(With CPU and GPU). 
+- [x] Model inference on test image from COCO val2017 dataset in Google Colab.
+
+
+<b>CHALLENGES</b>
+- Model inference and evaluation of YoloX using only CPU was not offered by the official repo. The wrapper classes and the pre-processing functions where written in tensorflow that incorporated GPU tensors for accumulating prediction results. 
+- Hence, I needed to opt for Google Colab, another alternative was to use M1 chip for accelerating GPU applications in the program, but some of the accelerating support for Apple's M series chips are still in development. Therefore, I proceeded with google colab.
+
+
+<b>ISSUE</b>
+- [x] [Megvii-BaseDetection/YOLOX#1464](https://github.com/Megvii-BaseDetection/YOLOX/issues/1464): [YOLOX] This issue was raised to inform an issue related to adding CPU evaluation support for YOLOX so that it can be easier to infer models and run benchmarks on CPU only devices.
+
+
+<b>Work</b>
+- [x] [Colab](https://colab.research.google.com/drive/1qABb90X0mNBnEd8u1JBTvRiizvmZxIT2?usp=sharing)
+
+
+##### Note
+🟩 - 3 hours of coding (working days: Monday - Friday)
