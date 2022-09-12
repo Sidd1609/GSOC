@@ -4,7 +4,7 @@
 ###### Total Hours Spent: 15 hours 🟩🟩🟩🟩🟩
 ###### Commits: None
 ###### Pull Requests: None
-###### Project Status: ![10%](https://progress-bar.dev/10)
+###### Project Status: ![65%](https://progress-bar.dev/65)
 
 
 - In continuation to previous week, this week I worked on creating an analysis sheet for jotting down individual precision metrics for trained model weights. Most model repos had various versions of the model. Hence, I worked on evaluation of all variations to accumulate overall results that would help to finalize models that needed to be added to the model zoo library. 
