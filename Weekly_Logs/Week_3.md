@@ -1,24 +1,15 @@
-## # Week-1 Summary
+## # Week-3 Summary
 
 #### Preview
-- I had previous experience working with object detection models. Hence, I was familiar with training models and evaluating trained models using pytorch and tensorflow frameworks using python. However, for this contribution I had to learn adpat to using <b>cv.dnn</b> framework since the entire project revolved providing more opencv zoo features based on opencv frameworks.
-- Therefore, I was asked to review work with <b>cv.dnn</b> framework by trying out examples from the opencv_zoo repo and also refering to the package and module informations from [opencv](https://docs.opencv.org/3.4/d6/d0f/group__dnn.html) documentation
-- This project involved working on trained model weights, hence I was not required to open a lot of pull request making my contributions very precise to the point. I was assigned the following tasks for the week ahead.
+- I had started working on Nanodet Inference using openCV's Deep Neural Network framework <b>(cv.dnn)</b>. I began testing various models from the Nanodet repo including the legacy models. 
+- For the project, we made use of the <b>NanoDet-Plus-m-1.5x</b> version of Nanodet model since it offers the following advantages over other models.
 
-<b>WEEK1 TASKS</b>
-- [x] Create Task tracker issue on OpenCV_Zoo repo
-- [x] Complet survey on light-weight object detection models and run evaluation on COCO dataset. 
+| Resolution | mAPval (0.5:0.95) | CPU Latency (i7-8700) | ARM Latency (4xA76) | FLOPS	Params | Model Size |
+|:-----------|:------------------|:----------------------|:--------------------|:--------------|:-----------|
+| 416*416 | 34.1 | 11.50ms |	25.49ms | 2.97G |	2.44M	| 4.7MB(FP16) & 2.3MB(INT8) |
+	
+- In NanoDet-Plus, we propose a novel label assignment strategy with a simple assign guidance module (AGM) and a dynamic soft label assigner (DSLA) to solve the optimal label assignment problem in lightweight model training. We also introduce a light feature pyramid called Ghost-PAN to enhance multi-layer feature fusion. These improvements boost previous NanoDet's detection accuracy by 7 mAP on COCO dataset. 
 
-
-Converted Pytorch model to ONNX format.
-Generated Nanodet model ONNX format with FP16.
-Loaded the ONNX formatted model using OpenCV.
-
-#### Plan:
-Create Pull requests before mid-review for inferring the model using OpenCV.
-Test the inferred model using OpenCV on sample images. 
-Work on creating a quantized version of the ONNX model. 
-
-#### Issues:
-Not able to run inference using "Net. forward() on OpenCV despite being able to load and read the model layers using 
-OpenCV. 
+<b>WEEK3 TASKS</b>
+- [x] Demonstrate <b>cv.dnn</b> inference of nanodet on test images from val2017 COCO dataset.
+- [x] Evaluate model precision metrics on val2017 dataset and report scores. 
