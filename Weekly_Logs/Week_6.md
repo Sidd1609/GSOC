@@ -8,7 +8,7 @@
 
 
 - Now I had to work on the Demo.py file which needed to load the trained .ONNX model and use the modules: pre_process, infer, post_process from the NanoDet.py to run inference on test images. 
-- I also had to provide webcam support for users in the demo.py file which was done using <b>cv2.capture()</b> The following modules were completed to be completed in this week before the mid-term evaluation [object_detection_nanodet](https://github.com/Sidd1609/opencv_zoo/tree/gsoc_nanodet/models/object_detection_nanodet) in the gsoc_nanodet branch. This branch only includes work pertaining to NanoDet model.
+- I also had to provide webcam support for users in the demo.py file which was done using <b>cv2.capture()</b> The following modules were completed this week before the mid-term evaluation [object_detection_nanodet](https://github.com/Sidd1609/opencv_zoo/tree/gsoc_nanodet/models/object_detection_nanodet) in the gsoc_nanodet branch. This branch only includes work pertaining to NanoDet model.
 
   - NanoDet.py
     - Pre_process: This module in Nanodet.py should be able to pre-process a given image by scaling the image to the parameters of Nanodet-m-plus-1.5x_416, this included resizing images to a resolution of 416 x 416 then creating input blobs of the image data using <b>cv2.dnn.blobFromImage()</b> module from <b>cv.dnn</b> framework. This module then returns the blob data of the inference image to the infer module.
