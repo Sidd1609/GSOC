@@ -79,6 +79,7 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 ## # Weekly Summary
 ### Community Bonding - May 20th to June 12th, 2022
 <br>
+
 ### Coding Period 1 - June 13th to  July 25th, 2022
 
 + Week #1: [Summary](./Weekly_Logs/Week_1.md)
