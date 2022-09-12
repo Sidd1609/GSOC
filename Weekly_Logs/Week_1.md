@@ -2,8 +2,8 @@
 
 #### PREVIEW
 ###### Total Hours Spent: 9 hours 🟩🟩🟩⬛⬛
-###### Commits: 80
-###### Pull Requests: 1 
+###### Commits: None
+###### Pull Requests: None 
 ###### Project Status: ![5%](https://progress-bar.dev/5)
 
 
