@@ -65,13 +65,12 @@ Here are some of the <b>cv.dnn</b> inference observed when testing ONNX formatte
 3. [opencv/opencv_zoo#91](https://github.com/opencv/opencv_zoo/pull/91): [opencv_zoo] Added COCO_Evaluation support in OpenCV Zoo tools **`/cp3`**
 
 <b> Issues opened: </b>
-1. [opencv/opencv_zoo#62](https://github.com/opencv/opencv_zoo/issues/62#-weekly-summary ): [opencv_zoo] This issue directs to this page which consists of the detailed information [about](url) this project and all the contributions made by myself during the course of GSOC'22 **`/cb`**
+1. [opencv/opencv_zoo#62](https://github.com/opencv/opencv_zoo/issues/62#-weekly-summary ): [opencv_zoo] This issue directs to this page which consists of the detailed information about this project and all the contributions made by myself during the course of GSOC'22 **`/cb`**
 
 2. [Megvii-BaseDetection/YOLOX#1464](https://github.com/Megvii-BaseDetection/YOLOX/issues/1464): [YOLOX] This issue was raised to inform an issue related to add CPU evaluation support for YOLOX so that it can be easier to infer models and run benchmarks on CPU only devices **`/cp1`**
 
 > **Tags**:
 >
-> **a**pplication **p**eriod : **`/ap`** <br>
 > **c**ommunity **b**onding period : **`/cb`** <br>
 > **c**oding **p**eriod **x** - **`/cpx`** <br>
 
